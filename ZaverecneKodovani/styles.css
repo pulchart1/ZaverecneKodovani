@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    color:white;
+    text-align: center;
+}
+
+body {
+    background-image: url('trubky.png');
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+}
+
+p{
+    border: 1px solid white; /* Add border around h1 */
+    margin: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 5px;
+    text-align:  center;
+    font-size: 35px;
+}
+
+
+.transparent-input input {
+    background: transparent;
+    border: none;
+    width: 60%;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    text-align: left;
+    box-sizing: border-box;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.transparent-input button {
+    background: transparent;
+    border: none;
+    width: auto;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+
+.transparent-input input::placeholder {
+    color: white;
+}
