@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
 
-*{
+#contact *{
     box-sizing: border-box;
     font-family: 'Julius Sans One', sans-serif;
     font-size: 24px;
@@ -10,14 +10,14 @@
     text-align: center;
 }
 
-body {
+#contact body {
     background-image: url('trubky.png');
     background-size: cover; 
     background-position: center; 
     height: 100vh; 
 }
 
-p{
+#contact p{
     border: 1px solid white; /* Add border around h1 */
     margin: 10px;
     margin-left: 30%;
@@ -28,7 +28,7 @@ p{
 }
 
 
-.transparent-input input {
+#contact .transparent-input input {
     background: transparent;
     border: none;
     width: 60%;
@@ -39,7 +39,7 @@ p{
     margin-bottom: 10px;
 }
 
-.transparent-input button {
+#contact .transparent-input button {
     background: transparent;
     border: none;
     width: auto;
@@ -47,6 +47,67 @@ p{
     box-sizing: border-box;
 }
 
-.transparent-input input::placeholder {
+#contact .transparent-input input::placeholder {
     color: white;
 }
+
+.hero__container {
+    background-image: url("hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  
+  .navbar {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    top: 0;
+    z-index: 999;
+  }
+  .logo__container{
+    display: flex;
+    margin-top: -300px;
+  }
+  
+  .navbar__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    z-index: 1;
+    width: 35%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+  }
+  
+  
+  
+  .navbar__menu {
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    padding: 15px;
+  }
+  .navbar__links{
+    font-family:'Jomhuria', sans-serif;;
+    color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+  }
