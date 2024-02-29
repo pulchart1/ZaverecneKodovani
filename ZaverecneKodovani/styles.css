@@ -1,34 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
 
-#contact *{
+
+
+.body1 {
+    background-image: url('trubky.png');
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
     box-sizing: border-box;
     font-family: 'Julius Sans One', sans-serif;
     font-size: 24px;
     padding: 0;
     margin: 0;
-    color:white;
     text-align: center;
 }
-
-#contact body {
-    background-image: url('trubky.png');
-    background-size: cover; 
-    background-position: center; 
-    height: 100vh; 
-}
-
-#contact p{
-    border: 1px solid white; /* Add border around h1 */
+.contact{
+    border: 1px solid white; 
+    border-radius: 15px;
     margin: 10px;
     margin-left: 30%;
     margin-right: 30%;
+    color: white;
     padding: 5px;
     text-align:  center;
     font-size: 35px;
 }
+.submit__button{
+  color: white;
+}
 
 
-#contact .transparent-input input {
+.transparent-input input {
     background: transparent;
     border: none;
     width: 60%;
@@ -37,17 +39,19 @@
     box-sizing: border-box;
     margin-top: 40px;
     margin-bottom: 10px;
+    padding: 50px;
 }
 
-#contact .transparent-input button {
+.transparent-input button {
     background: transparent;
     border: none;
     width: auto;
     border: 1px solid white;
     box-sizing: border-box;
+    padding: 30px;
 }
 
-#contact .transparent-input input::placeholder {
+.transparent-input input::placeholder {
     color: white;
 }
 
@@ -58,9 +62,10 @@
   background-size: cover;
   height: 500px;
   display: flex;
-  flex-direction: column; /* Updated to column */
-  align-items: center; /* Center items vertically */
+  flex-direction: column; 
+  align-items: center; 
   width: 100%;
+  min-width: 1200px;
 }
 
 .navbar {
@@ -103,11 +108,17 @@
   font-size: 64px;
 }
 
-.container{
+.container {
   display: flex;
-  padding: 100px;
-  
+  padding: 120px; 
+  text-align: center;
+
 }
+.footerText {
+  margin-left: 10px;
+}
+
+
 
 
 .navbar__container {
@@ -128,9 +139,24 @@
 .mainText p{
  font-size: 30px;
 }
-footer{
-  background-color:bisque;
+footer {
+  background-color: #b0a5a5;
+  min-width: 1200px;
+  
 }
+
+
+.footer__icon {
+  display: flex;
+
+  align-items: center;
+  text-align: center; /* Optional: Align text at the center */
+}
+
+.footer__icon img {
+  margin-bottom: 10px; /* Adjust the margin as needed */
+}
+
 
 .navbar__menu {
   color: rgb(255, 255, 255);
